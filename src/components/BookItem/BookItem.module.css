@@ -1,0 +1,49 @@
+.List {
+    background-color: rgb(248, 240, 230);
+    width: 190px;
+    margin: 5% 5% 5% 5%;
+    padding: 0 1% 0 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.ListImage {
+    width: 130px;
+    height: 190px;
+    margin: 10% 0 0 0;
+}
+
+.ListImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.ListCategories {
+    width: 100%;     
+}
+
+.ListCategories p {
+    text-decoration: underline;
+    color: rgb(153, 140, 124);
+    text-align: left;
+}
+
+.ListTitle {
+    width: 100%;  
+}
+
+.ListTitle p {
+    font-weight: bold;
+    text-align: left;
+}
+
+.ListAuthors {
+    width: 100%;
+}
+
+.ListAuthors p {
+    color: rgb(153, 140, 124);
+    text-align: left;
+}
+

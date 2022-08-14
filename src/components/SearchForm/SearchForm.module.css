@@ -1,0 +1,59 @@
+.Catalog {
+    width: 1440px;
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Catalog>* {
+    flex: 1 100%;
+}
+
+.Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.Title h1 {
+    height: 16px;
+    color: white;
+}
+
+.SearchInput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+}
+
+.SearchInput input {
+    width: 50%;
+}
+
+.SelectDiv {
+    width: 25%;
+}
+
+.SelectDiv label {
+    margin-right: 10%;
+}
+
+.SelectDiv span {
+    color: white
+}
+
+.SelectDiv select {
+    width: 40%;
+}
+
+.Spinner {
+    display: flex;
+    justify-content: center;
+
+}
