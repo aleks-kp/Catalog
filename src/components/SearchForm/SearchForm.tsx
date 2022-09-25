@@ -8,7 +8,7 @@ import classes from "./SearchForm.module.css";
 import { setSelectCategories, setSelectSortBy, selectRequest, buttonClicked } from './SearchFormSlice'
 import axios from "axios";
 import { AppDispatch } from "../../store/store";
-import { searchFormSlice } from "./SearchFormSlice";
+import { searchFormSlice } from "./SearchFormSlice"
 
 
 
