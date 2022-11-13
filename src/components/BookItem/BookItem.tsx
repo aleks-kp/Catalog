@@ -2,21 +2,13 @@ import React from "react";
 import classes from "./BookItem.module.css";
 import { IBook } from "../../types/types";
 
-
-
 interface BookItemProps {
     book: IBook
 }
 
-
-
 export const BookItem: React.FC<BookItemProps> = ({book}) => (
     <div className={classes.List}>
         <div className={classes.ListImage}>
-{/*             { book.volumeInfo.imageLinks&&book.volumeInfo.imageLinks.smallThumbnail == undefined
-            ? <img src={book.volumeInfo.imageLinks&&book.volumeInfo.imageLinks.smallThumbnail}></img>
-
-            } */}
             <img src={book.volumeInfo.imageLinks&&book.volumeInfo.imageLinks.smallThumbnail} alt="No image yet"></img>
         </div>
         <div className={classes.ListCategories}>
