@@ -3,13 +3,9 @@ import { IBook } from "../../types/types";
 import { BookItem } from "../BookItem/BookItem";
 import classes from "./BookList.module.css";
 
-
-
-
 interface BookListProps {
     books: IBook[]
 }
-
 
 export const BookList: React.FC<BookListProps> = ({books}) => {
     return (
@@ -20,5 +16,3 @@ export const BookList: React.FC<BookListProps> = ({books}) => {
         </div>
     )
 }
-
-
