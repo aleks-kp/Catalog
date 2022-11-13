@@ -5,11 +5,9 @@ interface SelectProps {
     onChange?: ()=>void;
     id: string;
     options: Array<string>
-
 }
 
 export const Select: React.FC<SelectProps> = ({ onChange, id, options}) => (
-
     <div className={classes.Select}>
         <select
             onChange={onChange}
